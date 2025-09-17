@@ -107,3 +107,26 @@ body{
     font-size: 14px;
     margin-top: 10px;
 }
+
+.days{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+.weather-icon-day{
+    width: 60%;
+}
+
+.dayE{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.dayTemp{
+    font-size: larger;
+    font-weight: bold;
+}
