@@ -29,10 +29,10 @@ searchBtn.addEventListener("click", function () {
     }
   };
   xhr.send()
-
 // 4 days weather data
 const url4day = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=${unit}`
 async function checkResponse() {
+  document.querySelector('.error').style.display = "none"
   const response = await fetch(url4day)
   if(response.ok){
   var data4 = await response.json()
