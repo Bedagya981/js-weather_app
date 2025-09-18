@@ -1,3 +1,5 @@
+#FRONTEND NOT RESPONSIVE, WORKS IN DESKTOPS AND LAPTOPS#
+
 # Weather App
 
   Weather web application built with **JavaScript**, **HTML**, and **CSS** that displays:
