@@ -1,5 +1,11 @@
 const searchBtn = document.querySelector(".search button");
-searchBtn.addEventListener("click", function () {
+searchBtn.addEventListener("click", handleWeather);
+window.addEventListener("keydown", (e) => {
+  if(e.key === "Enter"){
+    handleWeather()
+  }
+})
+  function handleWeather() {
   const apiKey = "99288e9267d3a7bfbd502136927ca0d6";
   const searchField = document.querySelector(".search input");
   const city = searchField.value;
@@ -63,4 +69,4 @@ async function checkResponse() {
 }
 }
 checkResponse();
-});
+};
